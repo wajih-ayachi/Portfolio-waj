@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- <link rel="icon" href="/images/logoTransparent.png"> -->
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript"> (function () {
+      var css = document.createElement('link');
+      css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+      css.rel = 'stylesheet'; css.type = 'text/css';
+      document.getElementsByTagName('head')[0].appendChild(css);
+    })(); </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="portfolio.js"></script>
+  <title>Ouajih Ayachi - Portfolio</title>
+</head>
+
+<body class="bg-visual">
+  <header class="navbar bg-visual pb-5 pt-5" id="navbarPc">
+    <section class="navbar-section text-white">
+      <a href="#home"><img class="ml-10 pl-5 logoHome" src="images/logo.png" alt="logo" style="height: 150px;"></a>
+    </section>
+    <section class="navbar-section mr-5 pr-5">
+      <a href="#about" class="customLink mr-3" data-aos="fade-down" data-aos-delay="0"><span
+          class="numberColor mr-2">01.</span>Infos</a>
+      <a href="#parcours" class="customLink mr-3" data-aos="fade-down" data-aos-delay="100"><span
+          class="numberColor mr-2">02.</span>Parcours</a>
+      <a href="#projects" class="customLink mr-3" data-aos="fade-down" data-aos-delay="200"><span
+          class="numberColor mr-2">03.</span>Projets</a>
+      <a href="#contact" class="customLink mr-3" data-aos="fade-down" data-aos-delay="300"><span
+          class="numberColor mr-2">04.</span>Contact</a>
+      <a href="/portfolio/images/cv.pdf" class="btn btn-flame mx-5 px-3" data-aos="fade-down" data-aos-delay="400">Mon
+        CV</a>
+    </section>
+  </header>
+  <header class="navbar bg-visual pb-5 pt-5 d-none" id="navbarMobile">
+    <section class="navbar-section text-white">
+      <img class="ml-10 pl-5 logoHome" src="images/logo.png">
+    </section>
+    <section class="navbar-section mr-5 pr-5">
+      <button class="btn btn-flame" id="buttonMobileModal"><i class="fas fa-bars"></i></button>
+      <div class="modal" id="mobileModal">
+        <a href="#close" class="modal-overlay" aria-label="Close" id="test"></a>
+        <div class="modal-container bg-visual">
+          <div class="modal-header mt-10">
+            <img class=" pl-5 logoHome" src="images/logo.png">
+            <button class="btn btn-flame float-right text-flame" id="closeMobileModal"><i
+                class="fas fa-times"></i></button>
+          </div>
+          <div class="modal-body">
+            <div class="content p-centered text-center">
+              <div data-aos="fade-left" id="mobileAOS1"><a href="#about" class="customLinkMobile mr-3"><span
+                    class="numberColor mr-2">01.</span><br>Infos</a><br></div>
+              <div data-aos="fade-right" id="mobileAOS2"><a href="#parcours" class="customLinkMobile mr-3"><span
+                    class="numberColor mr-2">02.</span><br>Parcours</a><br></div>
+              <div data-aos="fade-left" id="mobileAOS3"><a href="#projects" class="customLinkMobile mr-3"><span
+                    class="numberColor mr-2">03.</span><br>Projets</a><br></div>
+              <div data-aos="fade-right" id="mobileAOS4"><a href="#" class="customLinkMobile mr-3"><span
+                    class="numberColor mr-2">04.</span><br>Contact</a><br></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <div class="container">
+    <div class="columns text-center">
+      <div class="column col-1" id="columnLeft">
+        <div class="bothColumn">
+          <dl>
+            <dd data-aos="slide-right" data-aos-delay="0"><a class="customIcon"
+                href="https://github.com/wajih-ayachi"><i class="fab fa-github"></i></a></dd>
+            <dd data-aos="slide-right" data-aos-delay="100"><a class="customIcon" href=""><i
+                  class="fab fa-gitlab"></i></a></dd>
+            <dd data-aos="slide-right" data-aos-delay="200"><a class="customIcon"
+                href="https://www.instagram.com/wajih.ayachi/"><i class="fab fa-instagram"></i></a></dd>
+            <dd data-aos="slide-right" data-aos-delay="300"><a class="customIcon"
+                href="https://www.linkedin.com/in/ouajih-ayachi-521b36172/"><i class="fab fa-linkedin-in"></i></a></dd>
+          </dl>
+          <div class="customLine mt-10"></div>
+        </div>
+      </div>
+      <div class="column col-10 col-md-12 mainColumn text-grey p-centered">
+        <div class="columns">
+          <div class="column col-10 col-md-11 p-centered text-left" id="home">
+            <div class="text-flame space-3" data-aos="fade-left" data-aos-delay="0">Hello, moi c'est</div>
+            <h1 class="text-light-grey megaTitle" data-aos="fade-left" data-aos-delay="100">Ouajih Ayachi.</h1>
+            <div class="text-flame space-3" data-aos="fade-left" data-aos-delay="200">Actuellement à</div>
+            <h1 class="megaTitle text-gray" data-aos="fade-left" data-aos-delay="300">La recherche d'une nouvelle
+              aventure
+              .</h1>
+            <p class="bio" data-aos="fade-left" data-aos-delay="400">Diplomé d'un MBA Développeur Fullstack chez
+              MyDigitalSchool
+              en alternance, je conçois des applications web et mobiles. </p>
+            <a href="mailto:ayachiwajih@icloud.com" class="btn btn-lg btn-flame text-flame" data-aos="fade-left"
+              data-aos-delay="500">
+              <span class="p-5">Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="columns mt-20 pb-10">
+          <div class="column col-9 col-md-11 p-centered text-left" id="about">
+            <h3 data-aos="fade-up">
+              <span class="numberColor mr-2">01.</span>
+              <span class="sectionTitle ml-2">Infos</span>
+              <div class="verticalLine ml-5"></div>
+            </h3>
+            <div class="columns mt-2">
+              <div class="column col-8 col-md-11 bio pr-5">
+                <p class="mt-4">Je m'appelle Ouajih et j'ai 30 ans, je cherche actuellement une entreprise pour une
+                  nouvelle aventure
+                  <span class="text-flame">Concepteur d'applications web / mobiles</span>
+                  Je suis passionné par les applications web depuis le début de ma formation en e-commerce avec
+                  showromprivé en 2018 quand j'ai découvert
+                  HTML5 et CSS3 puis JavaScript suivi de NodeJS.
+                </p>
+                <span class="mt-4">J'ai récemment travaillé avec les technologies suivantes :</span>
+                <div class="columns mt-4">
+                  <div class="column col-6" data-aos="fade-right">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">JavaScript</span>
+                  </div>
+                  <div class="column col-6" data-aos="fade-right" data-aos-delay="300">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">Node.js</span>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column col-6" data-aos="fade-right" data-aos-delay="100">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">Vue.js</span>
+                  </div>
+                  <div class="column col-6" data-aos="fade-right" data-aos-delay="400">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">React.js</span>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column col-6" data-aos="fade-right" data-aos-delay="200">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">ElasticSearch</span>
+                  </div>
+                  <div class="column col-6" data-aos="fade-right" data-aos-delay="500">
+                    <small><i class="fas fa-angle-right mr-2 text-flame"></i></small>
+                    <span class="text-tiny">Kotlin</span>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-4 col-md-8 mt-5 p-centered" data-aos="fade-left" data-aos-id="pictureAOS">
+                <img src="images/me2.jpg" class="img-responsive rounded" id="meImg" alt="ma photo">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column mt-20 pb-10">
+          <div class="column col-11 col-md-11 p-centered text-left" id="parcours">
+            <h3 data-aos="fade-up"><span class="numberColor mr-2">02.</span>
+              <span class="sectionTitle ml-2">Parcours</span>
+              <div class="verticalLine ml-5"></div>
+            </h3>
+            <div class="columns mt-2">
+              <div class="column col-6 col-md-12 bio">
+                <ul class="menu bg-visual aboutMenuPc" id="parcoursMenu">
+                  <li class="menu-item" data-aos="fade-right" data-aos-delay="100">
+                    <a class="subMenu triggered" id="section1">
+                      JAVA, Wild code school
+                      <span class="underline">POEC</span>
+                    </a>
+                  </li><br>
+                  <li class="menu-item" data-aos="fade-right" data-aos-delay="100">
+                    <a class="subMenu triggered" id="section1">
+                      Master Dev Fullstack -
+                      <span class="underline">Alternance</span>
+                    </a>
+                  </li><br>
+                  <li class="menu-item" data-aos="fade-right" data-aos-delay="200">
+                    <a class="subMenu" id="section2">
+                      Bachelor 3 Dev Web -
+                      <span class="underline">Alternance</span>
+                    </a>
+                  </li><br>
+                  <li class="menu-item" data-aos="fade-right" data-aos-delay="300">
+                    <a class="subMenu" id="section3">Bootcamp de e-commerce -
+                      <span class="underline">Stage</span>
+                    </a>
+                  </li><br>
+                  <li class="menu-item" data-aos="fade-right" data-aos-delay="400">
+                    <a class="subMenu" id="section4">Licence d'anglais</a>
+                  </li>
+                </ul>
+                <div class="columns aboutMenuMobile">
+                  <div class="accordion">
+                    <input type="radio" id="accordion-1" name="accordion-radio" hidden>
+                    <label class="accordion-header" for="accordion-1" data-aos="fade-right" data-aos-delay="100">
+                      <i class="icon icon-arrow-right mr-1"></i>
+                      Master en
+                      <span class="underline">Alternance</span>
+                    </label>
+                    <div class="accordion-body mt-4">
+                      <div class="accordionAOS" data-aos="fade-left" data-aos-delay="100">Etablissement :
+                        <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">MyDigitalSchool</a>
+                      </div>
+                      <div class="text-muted text-small fontFira accordionAOS" data-aos="fade-left"
+                        data-aos-delay="200">2021 - 2023</div>
+                      <p class="text-small mt-4 accordionAOS" data-aos="fade-left" data-aos-delay="300">
+
+                        <i class="fas fa-angle-right mr-2 text-flame"></i>
+
+                      </p>
+                      <hr class="accordionAOS" data-aos="fade-up" data-aos-delay="400">
+                    </div>
+                  </div>
+                  <div class="accordion">
+                    <input type="radio" id="accordion-2" name="accordion-radio" hidden>
+                    <label class="accordion-header" for="accordion-2" data-aos="fade-right" data-aos-delay="200">
+                      <i class="icon icon-arrow-right mr-1"></i>
+                      Bachelor3 en
+                      <span class="underline">Alternance</span>
+                    </label>
+                    <div class="accordion-body mt-4">
+                      <div class="accordionAOS" data-aos="fade-left" data-aos-delay="100">Etablissement :
+                        <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">MyDigitalSchool</a>
+                      </div>
+                      <div class="accordionAOS" data-aos="fade-left" data-aos-delay="200">Entreprise :
+                        <a href="http://oxoservices.com//" class="text-flame ml-4">Oxo services</a>
+                      </div>
+                      <div class="text-muted text-small fontFira accordionAOS" data-aos="fade-left"
+                        data-aos-delay="300">2020 - 2021</div>
+                      <p class="text-small mt-4 accordionAOS" data-aos="fade-left" data-aos-delay="400">
+                        <i class="fas fa-angle-right mr-2 text-flame"></i>
+                        Concepteur développeur d'application web & mobile
+                      </p>
+                      <p class="text-small accordionAOS" data-aos="fade-left" data-aos-delay="500"><i
+                          class="fas fa-angle-right mr-2 text-flame"></i>
+                        Conception du site web B2B
+                        avec Odoo, HTML, CSS, Sass.
+                      </p>
+                      <p class="text-small accordionAOS" data-aos="fade-left" data-aos-delay="600"><i
+                          class="fas fa-angle-right mr-2 text-flame"></i>
+                        Conception d'une application web générant des images mappées avec des icones
+                        responsive liées à un CDN et utilisant Puppeteer pour les captures d'écran automatiques.
+                      </p>
+                      <hr class="accordionAOS" data-aos="fade-up" data-aos-delay="700">
+                    </div>
+                  </div>
+                  <div class="accordion">
+                    <input type="radio" id="accordion-3" name="accordion-radio" hidden>
+                    <label class="accordion-header" for="accordion-3" data-aos="fade-right" data-aos-delay="300">
+                      <i class="icon icon-arrow-right mr-1"></i>
+                      Bootcamp E-commerce
+                    </label>
+                    <div class="accordion-body mt-4">
+                      <div class="accordionAOS" data-aos="fade-left" data-aos-delay="100">Etablissement :
+                        <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">SHOWROOMPRIVÉE & ONEY</a>
+                      </div>
+
+                      <div class="text-muted text-small fontFira accordionAOS" data-aos="fade-left"
+                        data-aos-delay="200">2018 - 2019</div>
+                      <p class="text-small mt-4 accordionAOS" data-aos="fade-left" data-aos-delay="300"><i
+                          class="fas fa-angle-right mr-2 text-flame"></i>
+                        Réalisation d'un site, Express et Bootstrap 4 avec base de données MySQL
+                        <i class="fas fa-angle-double-right"></i>
+                        <a href="https://u-exist.com/" class="text-flame">U-exist</a>
+                      </p>
+                      <p class="text-small accordionAOS" data-aos="fade-left" data-aos-delay="400"><i
+                          class="fas fa-angle-right mr-2 text-flame"></i>
+                        Enseignement général : Wordpress, SEO, SEA, SQL, HTML, CSS.
+                      </p>
+                      <hr class="accordionAOS" data-aos="fade-up" data-aos-delay="500">
+                    </div>
+                  </div>
+                  <div class="accordion">
+                    <input type="radio" id="accordion-4" name="accordion-radio" hidden>
+                    <label class="accordion-header" for="accordion-4" data-aos="fade-right" data-aos-delay="400">
+                      <i class="icon icon-arrow-right mr-1"></i>
+                      BTS Infographie
+                    </label>
+                    <div class="accordion-body mt-4">
+                      <div class="accordionAOS" data-aos="fade-left" data-aos-delay="100">Etablissement :
+                        <a href="https://www.autograf.fr/" class="text-flame ml-4">Autograf Paris</a>
+                      </div>
+                      <div class="text-muted text-small fontFira accordionAOS" data-aos="fade-left"
+                        data-aos-delay="200">2016 - 2018</div>
+                      <p class="text-small mt-4 accordionAOS" data-aos="fade-left" data-aos-delay="300"><i
+                          class="fas fa-angle-right mr-2 text-flame"></i>
+                        Enseignement général : Typo, Anglais, Arts & Moyens d'expression, géométrie descriptive, print,
+                        POO
+                      </p>
+                      <hr class="accordionAOS" data-aos="fade-up" data-aos-delay="400">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column col-6 mt-4 blocksection aboutMenuPc" id="blocksection1" data-aos="fade-up">
+                <div class="text-large blocksection1AOS" data-aos="fade-left" data-aos-delay="0">Etablissement :
+                  <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">MyDigitalSchool</a>
+                </div>
+                <div class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="100">Entreprise :
+                  <a href="https://www.gbspe.com/" class="text-flame ml-4">GBS</a>
+                </div>
+
+                <div class="text-muted fontFira blocksection1AOS" data-aos="fade-left" data-aos-delay="100">2021 - 2023
+                </div>
+                <div class="text-large blocksection1AOS" data-aos="fade-left" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Concepteur application web chez GBS
+                  <p class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="500"></p>
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Conception d'une application web B2B pour gérer les commandes des brasseurs de Bière (e-commande.com).
+                  <p class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="500"></p>
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  THEME WORDPRESS
+
+
+
+                </div>
+              </div>
+              <div class="column col-6 mt-4 d-none blocksection" id="blocksection2" data-aos="fade-up">
+                <div class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="0">
+                  Etablissement :
+                  <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">MyDigitalSchool</a>
+                </div>
+                <div class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="100">Entreprise :
+                  <a href="https://www.willemsefrance.fr/" class="text-flame ml-4">Oxo services</a>
+                </div>
+                <div class="text-muted text-small fontFira blocksection2AOS" data-aos="fade-left" data-aos-delay="200">
+                  2020 - 2021</div>
+                <p class="text-large mt-4 blocksection2AOS" data-aos="fade-left" data-aos-delay="300">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Concepteur développeur d'application web & mobile
+                </p>
+                <p class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="400">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Conception du site web Oxo services, palettes services et traiding solution center via le CMS Odoo,
+                  HTML, CSS et SASS.
+                </p>
+                <p class="text-large blocksection2AOS" data-aos="fade-left" data-aos-delay="500">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Conception d'une application web générant des images mappées avec des icones
+                  responsive liées à un CDN et utilisant Puppeteer pour les captures d'écran automatiques.
+                </p>
+                <hr class="blocksection2AOS" data-aos="fade-up" data-aos-delay="600">
+              </div>
+              <div class="column col-6 mt-4 d-none blocksection" id="blocksection3" data-aos="fade-up">
+                <div class="text-large blocksection3AOS" data-aos="fade-left" data-aos-delay="0">Etablissement :
+                  <a href="https://www.mydigitalschool.com/" class="text-flame ml-4">SHOWROOMPRIVÉE & ONEY</a>
+                </div>
+                <div class="accordionAOS" data-aos="fade-left" data-aos-delay="200">Entreprise :
+                  <a href="http://oxoservices.com//" class="text-flame ml-4">Be-lab</a>
+                </div>
+                <div class="text-muted text-small fontFira blocksection3AOS" data-aos="fade-left" data-aos-delay="100">
+                  2018 - 2020</div>
+
+                <p class="text-large mt-4 blocksection3AOS" data-aos="fade-left" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Réalisation d'une appli web type webstore sous NodeJS, Express et Bootstrap 4 avec base de données
+                  MySQL
+                  <i class="fas fa-angle-double-right"></i>
+
+                </p>
+                <p class="text-large blocksection3AOS" data-aos="fade-left" data-aos-delay="300">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Enseignement général : C++ (théorie des graphes, pointeurs, thread, mutex), SQL, Assembleur, HTML,
+                  CSS.
+                </p>
+                <hr class="blocksection3AOS" data-aos="fade-up" data-aos-delay="400">
+              </div>
+              <div class="column col-6 mt-4 d-none blocksection" id="blocksection4">
+                <div class="text-large blocksection4AOS" data-aos="fade-left" data-aos-delay="0">Etablissement :
+                  <a href="https://uclouvain.be/fr/facultes/loci" class="text-flame ml-4">Bourghiba school Tunis</a>
+                </div>
+                <br>
+                <div class="text-muted text-small fontFira blocksection4AOS" data-aos="fade-left" data-aos-delay="100">
+                  2011 - 2013</div>
+                <p class="text-large mt-4 blocksection4AOS" data-aos="fade-left" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Enseignement général : Culture étrangère et régionale : anglais, littérature et civilisation des pays
+                  anglophones, Expression écrite et orale ,
+                  Traduction, Civilisation britannique, Littérature américaine,(MEE) Didactique FLE: grammaires
+                </p>
+                <hr class="blocksection4AOS" data-aos="fade-up" data-aos-delay="300">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column mt-20 pb-10">
+          <div class="column col-11 col-md-11 p-centered text-left" id="projects">
+            <h3 data-aos="fade-up">
+              <span class="numberColor mr-2">03.</span>
+              <span class="sectionTitle ml-2">Projets</span>
+              <div class="verticalLine ml-5"></div>
+            </h3>
+            <!-- E-COMMANDE -->
+            <div class="columns mt-20">
+              <div class="column col-5 col-lg-12">
+                <h6 class="numberColor" data-aos="fade-right" data-aos-delay="0">Projet d'entreprise</h6>
+                <h1 class="sectionTitle" data-aos="fade-right" data-aos-delay="100">E-commande GBS</h1>
+                Site web E-commerce B2B
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Création d'un théme Wordpress via (HTML/CSS/JS/PHP/Bootstrap)
+                </p>
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="300">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  L'intégration du théme avec le CMS Wordpress
+                </p>
+              </div>
+              <div class="column col-1 col-sm-2 col-lg-1">
+                <button class="btn btn-lg btn-flame" id="buttonBackofficeModal" data-aos="zoom-in" data-aos-delay="100">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </button>
+              </div>
+              <div class="column col-6 col-sm-10 col-lg-11">
+                <img class="img-responsive d-none" src="images/e-commande/cover.png" id="coverBackoffice"
+                  data-aos="fade-up" data-aos-delay="0">
+                <div class="carousel" id="backofficeCarousel" data-aos="fade-up" data-aos-delay="100">
+                  <input class="carousel-locator" id="startBslide-1" type="radio" name="carousel-radio" hidden=""
+                    checked="">
+                  <input class="carousel-locator" id="startBslide-2" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startBslide-3" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startBslide-4" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startBslide-5" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startBslide-6" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startBslide-7" type="radio" name="carousel-radio" hidden="">
+                  <div class="carousel-container">
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-primary btn-lg carouselCursor" for="startBslide-7"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-primary btn-lg carouselCursor" for="startBslide-2"><i
+                          class="icon icon-arrow-right">saluuut</i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen1.jpg" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startBslide-1"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startBslide-3"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen2.jpg" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startBslide-2"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startBslide-4"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen3.jpg" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startBslide-3"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startBslide-5"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen4.jpg" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startBslide-4"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startBslide-6"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen5.jpg" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startBslide-5"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startBslide-7"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/e-commande/screen6.jpg" alt="">
+                    </figure>
+
+                  </div>
+                  <div class="carousel-nav">
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-1">1</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-2">2</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-3">3</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-4">4</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-5">5</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-6">6</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startBslide-7">7</label>
+                  </div>
+                </div>
+              </div>
+              <div class="modal bg-visual" id="backofficeModal">
+                <a href="#close" class="modal-overlay" aria-label="Close"></a>
+                <div class="modal-container bg-visual">
+                  <div class="modal-header">
+                  </div>
+                  <div class="modal-body">
+                    <div class="columns">
+                      <div class="column col-sm-10 col-11">
+                        <div class="carousel">
+                          <input class="carousel-locator" id="Bslide-1" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-2" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-3" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-4" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-5" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-6" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Bslide-7" type="radio" name="carousel-radio" hidden="">
+                          <div class="carousel-container">
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-primary btn-lg carouselCursor" for="Bslide-7"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-primary btn-lg carouselCursor" for="Bslide-2"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen1.jpg" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Bslide-1"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Bslide-3"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen2.jpg" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Bslide-2"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Bslide-4"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen3.jpg" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Bslide-3"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Bslide-5"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen4.jpg" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Bslide-4"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Bslide-6"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen5.jpg" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Bslide-5"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Bslide-7"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/e-commande/screen6.jpg" alt="">
+                            </figure>
+
+                          </div>
+                          <div class="carousel-nav">
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-1">1</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-2">2</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-3">3</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-4">4</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-5">5</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-6">6</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Bslide-7">7</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column col-1 col-sm-2">
+                        <button class="btn btn-flame float-right text-flame" id="closeBackofficeModal">
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mt-10" data-aos="fade-up">
+
+            <!-- NEED-U -->
+            <div class="columns mt-20">
+              <div class="column col-6 col-sm-10 col-lg-11 mb-4">
+                <img class="img-responsive" src="images/need-u/screen1.png" id="coverLoccker" data-aos="fade-up"
+                  data-aos-delay="100">
+                <div class="carousel d-none" id="locckerCarousel">
+                  <input class="carousel-locator" id="startLslide-1" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startLslide-2" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startLslide-3" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startLslide-4" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startLslide-5" type="radio" name="carousel-radio" hidden="">
+                  <div class="carousel-container">
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-primary btn-lg carouselCursor" for="startLslide-5"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-primary btn-lg carouselCursor" for="startLslide-2"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/need-u/screen5.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-1"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-3"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/need-u/screen2.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-2"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-4"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/need-u/screen3.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-3"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-5"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/need-u/screen4.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-4"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-1"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/need-u/screen5.PNG" alt="">
+                    </figure>
+                  </div>
+                  <div class="carousel-nav">
+                    <label class="nav-item text-hide c-hand carouselNav" for="startLslide-1">1</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startLslide-2">2</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startLslide-3">3</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startLslide-4">4</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startLslide-5">5</label>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-1 col-sm-2 col-lg-1">
+                <button class="btn btn-lg btn-flame" id="buttonLocckerModal" data-aos="zoom-in" data-aos-delay="100">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </button>
+              </div>
+              <div class="column col-5 col-lg-12">
+                <h6 class="numberColor" data-aos="fade-right" data-aos-delay="0">Projet d'école</h6>
+                <a href="https://github.com/wajih-ayachi/NEED-U.git" class="text-flame">
+                  <h1 class="sectionTitle" data-aos="fade-right" data-aos-delay="100">NEED-U</h1>
+
+
+                </a>
+
+                Application web - Need U est une plateforme de mise en relation. Elle permet à des personnes qui en
+                ressente le besoin, de par leur solitude ou des emplois du temps en désaccord avec leurs proches,
+                d’entrer en contact avec des intermittents du spectacle pour réaliser une activité tiers (cinéma,
+                restaurant, théâtre, sport,…). .
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Création du Front et du Back de l'application via (Vue.js/Vuetify/Express/Sequelize/Axios)
+                </p>
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="300">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Sécurité du projet assurée par Helmet, cryptage de mots de passe, filtrage des requêtes vers la base
+                  de données.
+                </p>
+              </div>
+              <div class="modal bg-visual" id="locckerModal">
+                <a href="#close" class="modal-overlay" aria-label="Close"></a>
+                <div class="modal-container bg-visual">
+                  <div class="modal-header">
+                  </div>
+                  <div class="modal-body">
+                    <div class="columns">
+                      <div class="column col-sm-10 col-11">
+                        <div class="carousel">
+                          <input class="carousel-locator" id="Lslide-1" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Lslide-2" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Lslide-3" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Lslide-4" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Lslide-5" type="radio" name="carousel-radio" hidden="">
+                          <div class="carousel-container">
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-primary btn-lg carouselCursor" for="Lslide-5"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-primary btn-lg carouselCursor" for="Lslide-2"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/need-u/screen1.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-1"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-3"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/need-u/screen2.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-2"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-4"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/need-u/screen3.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-3"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-5"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/need-u/screen4.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-4"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-1"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/need-u/screen5.PNG" alt="">
+                            </figure>
+                          </div>
+                          <div class="carousel-nav">
+                            <label class="nav-item text-hide c-hand carouselNav" for="Lslide-1">1</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Lslide-2">2</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Lslide-3">3</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Lslide-4">4</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Lslide-5">5</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column col-sm-2 col-1">
+                        <button class="btn btn-flame float-right text-flame" id="closeLocckerModal">
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mt-10" data-aos="fade-up">
+            <!-- U-EXIST -->
+            <div class="columns mt-20">
+              <div class="column col-5 col-lg-12">
+                <h6 class="numberColor" data-aos="fade-right" data-aos-delay="0">Projet d'entreprise</h6>
+                <a href="https://www.u-exist.com" class="customLink">
+                  <h1 class="sectionTitle" data-aos="fade-right" data-aos-delay="100">U-EXIST</h1>
+                </a>
+
+                Site E-commerce de vente de Prothèses Customusées
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="200">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Conception du site internet via Wordpress.
+                </p>
+                <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="300">
+                  <i class="fas fa-angle-right mr-2 text-flame"></i>
+                  Mise à jour et sécurité du site.
+                </p>
+              </div>
+              <div class="column col-1 col-sm-2 col-lg-1">
+                <button class="btn btn-lg btn-flame" id="buttonGardenmapModal" data-aos="zoom-in" data-aos-delay="100">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                </button>
+              </div>
+              <div class="column col-6 col-sm-10 col-lg-11">
+                <img class="img-responsive" src="images/u-exist/u-screen1.png" id="coverGardenmap" data-aos="fade-up"
+                  data-aos-delay="0">
+                <div class="carousel d-none" id="gardenmapCarousel">
+                  <input class="carousel-locator" id="startGslide-1" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startGslide-2" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startGslide-3" type="radio" name="carousel-radio" hidden="">
+                  <input class="carousel-locator" id="startGslide-4" type="radio" name="carousel-radio" hidden="">
+                  <div class="carousel-container">
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-primary btn-lg carouselCursor" for="startGslide-4"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-primary btn-lg carouselCursor" for="startGslide-2"><i
+                          class="icon icon-arrow-right">saluuut</i></label>
+                      <img class="img-responsive rounded" src="images/u-exist/u-screen1.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startGslide-1"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startGslide-3"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/u-exist/u-screen2.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startGslide-2"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startGslide-4"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/u-exist/u-screen3.png" alt="">
+                    </figure>
+                    <figure class="carousel-item">
+                      <label class="item-prev btn btn-action btn-lg carouselCursor" for="startGslide-3"><i
+                          class="icon icon-arrow-left"></i></label>
+                      <label class="item-next btn btn-action btn-lg carouselCursor" for="startGslide-1"><i
+                          class="icon icon-arrow-right"></i></label>
+                      <img class="img-responsive rounded" src="images/u-exist/u-screen4.png" alt="">
+                    </figure>
+                  </div>
+                  <div class="carousel-nav">
+                    <label class="nav-item text-hide c-hand carouselNav" for="startGslide-1">1</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startGslide-2">2</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startGslide-3">3</label>
+                    <label class="nav-item text-hide c-hand carouselNav" for="startGslide-4">4</label>
+                  </div>
+                </div>
+              </div>
+              <div class="modal bg-visual" id="gardenmapModal">
+                <a href="#close" class="modal-overlay" aria-label="Close"></a>
+                <div class="modal-container bg-visual">
+                  <div class="modal-header">
+                  </div>
+                  <div class="modal-body">
+                    <div class="columns">
+                      <div class="column col-sm-10 col-11">
+                        <div class="carousel">
+                          <input class="carousel-locator" id="Gslide-1" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Gslide-2" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Gslide-3" type="radio" name="carousel-radio" hidden="">
+                          <input class="carousel-locator" id="Gslide-4" type="radio" name="carousel-radio" hidden="">
+                          <div class="carousel-container">
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-primary btn-lg carouselCursor" for="Gslide-4"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-primary btn-lg carouselCursor" for="Gslide-2"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/u-exist/u-screen1.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Gslide-1"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Gslide-3"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/u-exist/u-screen2.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Gslide-2"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Gslide-4"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/u-exist/u-screen3.png" alt="">
+                            </figure>
+                            <figure class="carousel-item">
+                              <label class="item-prev btn btn-action btn-lg carouselCursor" for="Gslide-3"><i
+                                  class="icon icon-arrow-left"></i></label>
+                              <label class="item-next btn btn-action btn-lg carouselCursor" for="Gslide-1"><i
+                                  class="icon icon-arrow-right"></i></label>
+                              <img class="img-responsive rounded" src="images/u-exist/u-screen4.png" alt="">
+                            </figure>
+                          </div>
+                          <div class="carousel-nav">
+                            <label class="nav-item text-hide c-hand carouselNav" for="Gslide-1">1</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Gslide-2">2</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Gslide-3">3</label>
+                            <label class="nav-item text-hide c-hand carouselNav" for="Gslide-4">4</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column col-sm-2 col-1">
+                        <button class="btn btn-flame float-right text-flame" id="closeGardenmapModal">
+                          <i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mt-10" data-aos="fade-up">
+          </div>
+        </div>
+ <!-- Minirine-->
+ <div class="columns mt-20">
+  <div class="column col-6 col-sm-10 col-lg-11 mb-4">
+    <img class="img-responsive" src="images/minirine/home2.png" id="coverLoccker" data-aos="fade-up"
+      data-aos-delay="100">
+    <div class="carousel d-none" id="locckerCarousel">
+      <input class="carousel-locator" id="startLslide-1" type="radio" name="carousel-radio" hidden="">
+      <input class="carousel-locator" id="startLslide-2" type="radio" name="carousel-radio" hidden="">
+      <input class="carousel-locator" id="startLslide-3" type="radio" name="carousel-radio" hidden="">
+      <input class="carousel-locator" id="startLslide-4" type="radio" name="carousel-radio" hidden="">
+      <input class="carousel-locator" id="startLslide-5" type="radio" name="carousel-radio" hidden="">
+      <div class="carousel-container">
+        <figure class="carousel-item">
+          <label class="item-prev btn btn-primary btn-lg carouselCursor" for="startLslide-5"><i
+              class="icon icon-arrow-left"></i></label>
+          <label class="item-next btn btn-primary btn-lg carouselCursor" for="startLslide-2"><i
+              class="icon icon-arrow-right"></i></label>
+          <img class="img-responsive rounded" src="images/minirine/home2.png alt="">
+        </figure>
+        <figure class="carousel-item">
+          <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-1"><i
+              class="icon icon-arrow-left"></i></label>
+          <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-3"><i
+              class="icon icon-arrow-right"></i></label>
+          <img class="img-responsive rounded" src="images/minirine/home3.png" alt="">
+        </figure>
+        <figure class="carousel-item">
+          <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-2"><i
+              class="icon icon-arrow-left"></i></label>
+          <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-4"><i
+              class="icon icon-arrow-right"></i></label>
+          <img class="img-responsive rounded" src="images/minirine/home4.png" alt="">
+        </figure>
+        <figure class="carousel-item">
+          <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-3"><i
+              class="icon icon-arrow-left"></i></label>
+          <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-5"><i
+              class="icon icon-arrow-right"></i></label>
+          <img class="img-responsive rounded" src="images/minirine/crea.png" alt="">
+        </figure>
+        <figure class="carousel-item">
+          <label class="item-prev btn btn-action btn-lg carouselCursor" for="startLslide-4"><i
+              class="icon icon-arrow-left"></i></label>
+          <label class="item-next btn btn-action btn-lg carouselCursor" for="startLslide-1"><i
+              class="icon icon-arrow-right"></i></label>
+          <img class="img-responsive rounded" src="images/minirine/crea2.png" alt="">
+        </figure>
+      </div>
+      <div class="carousel-nav">
+        <label class="nav-item text-hide c-hand carouselNav" for="startLslide-1">1</label>
+        <label class="nav-item text-hide c-hand carouselNav" for="startLslide-2">2</label>
+        <label class="nav-item text-hide c-hand carouselNav" for="startLslide-3">3</label>
+        <label class="nav-item text-hide c-hand carouselNav" for="startLslide-4">4</label>
+        <label class="nav-item text-hide c-hand carouselNav" for="startLslide-5">5</label>
+      </div>
+    </div>
+  </div>
+  <div class="column col-1 col-sm-2 col-lg-1">
+    <button class="btn btn-lg btn-flame" id="buttonLocckerModal" data-aos="zoom-in" data-aos-delay="100">
+      <i class="fas fa-expand-arrows-alt"></i>
+    </button>
+  </div>
+  <div class="column col-5 col-lg-12">
+    <h6 class="numberColor" data-aos="fade-right" data-aos-delay="0">Minirine</h6>
+    <a href="https://github.com/wajih-ayachi/NEED-U.git" class="text-flame">
+      <h1 class="sectionTitle" data-aos="fade-right" data-aos-delay="100">Minirine</h1>
+
+
+    </a>
+
+    Minirine.com est une plateforme de commerce en ligne spécialisée dans la vente de streetwear, offrant une gamme variée de vêtements et d'accessoires urbains. Notre projet vise à créer un espace où les passionnés de streetwear peuvent trouver des produits uniques et tendance, reflétant l'essence de la culture urbaine. 
+    <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="200">
+      <i class="fas fa-angle-right mr-2 text-flame"></i>
+      Création du Front et du Back du site web 
+    </p>
+    <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="300">
+      <i class="fas fa-angle-right mr-2 text-flame"></i>
+      Sécurité du projet assurée par Helmet, cryptage de mots de passe, filtrage des requêtes vers la base
+      de données.
+    </p>
+  </div>
+  <div class="modal bg-visual" id="locckerModal">
+    <a href="#close" class="modal-overlay" aria-label="Close"></a>
+    <div class="modal-container bg-visual">
+      <div class="modal-header">
+      </div>
+      <div class="modal-body">
+        <div class="columns">
+          <div class="column col-sm-10 col-11">
+            <div class="carousel">
+              <input class="carousel-locator" id="startLslide-1" type="radio" name="carousel-radio" hidden="">
+              <input class="carousel-locator" id="startLslide-2" type="radio" name="carousel-radio" hidden="">
+              <input class="carousel-locator" id="startLslide-3" type="radio" name="carousel-radio" hidden="">
+              <input class="carousel-locator" id="startLslide-4"type="radio" name="carousel-radio" hidden="">
+              <input class="carousel-locator" id="startLslide-5" type="radio" name="carousel-radio" hidden="">
+              <div class="carousel-container">
+                <figure class="carousel-item">
+                  <label class="item-prev btn btn-primary btn-lg carouselCursor" for="Lslide-5"><i
+                      class="icon icon-arrow-left"></i></label>
+                  <label class="item-next btn btn-primary btn-lg carouselCursor" for="Lslide-2"><i
+                      class="icon icon-arrow-right"></i></label>
+                  <img class="img-responsive rounded" src="images/minirine/home2.png" alt="">
+                </figure>
+                <figure class="carousel-item">
+                  <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-1"><i
+                      class="icon icon-arrow-left"></i></label>
+                  <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-3"><i
+                      class="icon icon-arrow-right"></i></label>
+                  <img class="img-responsive rounded" src="images/minirine/home3.png" alt="">
+                </figure>
+                <figure class="carousel-item">
+                  <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-2"><i
+                      class="icon icon-arrow-left"></i></label>
+                  <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-4"><i
+                      class="icon icon-arrow-right"></i></label>
+                
+                </figure>
+                <figure class="carousel-item">
+                  <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-3"><i
+                      class="icon icon-arrow-left"></i></label>
+                  <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-5"><i
+                      class="icon icon-arrow-right"></i></label>
+                  <img class="img-responsive rounded" src="images/minirine/collection.png" alt="">
+                </figure>
+                <figure class="carousel-item">
+                  <label class="item-prev btn btn-action btn-lg carouselCursor" for="Lslide-4"><i
+                      class="icon icon-arrow-left"></i></label>
+                  <label class="item-next btn btn-action btn-lg carouselCursor" for="Lslide-1"><i
+                      class="icon icon-arrow-right"></i></label>
+                  <img class="img-responsive rounded" src="images/minirine/crea.png" alt="">
+                </figure>
+              </div>
+              <div class="carousel-nav">
+                <label class="nav-item text-hide c-hand carouselNav" for="Lslide-1">1</label>
+                <label class="nav-item text-hide c-hand carouselNav" for="Lslide-2">2</label>
+                <label class="nav-item text-hide c-hand carouselNav" for="Lslide-3">3</label>
+                <label class="nav-item text-hide c-hand carouselNav" for="Lslide-4">4</label>
+                <label class="nav-item text-hide c-hand carouselNav" for="Lslide-5">5</label>
+              </div>
+            </div>
+          </div>
+          <div class="column col-sm-2 col-1">
+            <button class="btn btn-flame float-right text-flame" id="closeLocckerModal2">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="mt-10" data-aos="fade-up">
+      </div>
+      
+      <!-- PALEETTES-SERVICES
+
+      <div class="columns mt-20">
+        <div class="column col-5 col-lg-12" style="color: white;">
+          <h6 class="numberColor" data-aos="fade-right" data-aos-delay="0">Projet d'entreprise</h6>
+          <a href="https://www.palettes-services.fr" class="customLink">
+            <h1 class="sectionTitle" data-aos="fade-right" data-aos-delay="100">PALETTES-SERVICES</h1>
+          </a>
+
+          Site E-commerce de vente de Palettes reconditionnées
+          <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="200" style="color: white;">
+            <i class="fas fa-angle-right mr-2 text-flame"></i>
+            Conception du site internet via Odooo.
+          </p>
+          <p class="text-large mt-4" data-aos="fade-right" data-aos-delay="300" style="color: white;">
+            <i class="fas fa-angle-right mr-2 text-flame"></i>
+            Mise à jour et sécurité du site.
+          </p>
+        </div>
+        <div class="column col-1 col-sm-2 col-lg-1">
+          <button class="btn btn-lg btn-flame" id="buttonGardenmapModal" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fas fa-expand-arrows-alt"></i>
+          </button>
+        </div>
+        <div class="column col-6 col-sm-10 col-lg-11">
+          <img class="img-responsive rounded-2" style="width:74%" src="images/palettes-services/palette-home.png"
+            alt="">
+
+          <div class="carousel d-none" id="gardenmapCarousel">
+            <input class="carousel-locator" id="startGslide-1" type="radio" name="carousel-radio" hidden="">
+
+            <div class="carousel-container">
+              <figure class="carousel-item">
+                <label class="item-prev btn btn-primary btn-lg carouselCursor" for="startGslide-4"><i
+                    class="icon icon-arrow-left"></i></label>
+                <label class="item-next btn btn-primary btn-lg carouselCursor" for="startGslide-2"><i
+                    class="icon icon-arrow-right">saluuut</i></label>
+                <img class="img-responsive rounded" src="images/palettes-services/palette-home.png" alt="">
+              </figure>
+
+            </div>
+            <div class="carousel-nav">
+              <label class="nav-item text-hide c-hand carouselNav" for="Gslide-1">1</label>
+
+            </div>
+          </div>
+        </div>
+        <div class="column col-sm-2 col-1">
+          <button class="btn btn-flame float-right text-flame" id="closeGardenmapModal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>!-->
+
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <hr class="mt-10" data-aos="fade-up">
+  </div>
+  </div>
+
+  </div>
+
+
+
+
+
+  <div class="column col-1" id="columnRight">
+    <div class="bothColumn">
+      <a class="pb-10" href="" id="reverseMail" data-aos="fade-down">ayachiwajih@icloud.com</a>
+      <div class="customLine"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
